@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda </title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-logo">
+            <img src="./img/logo.png" alt="" class="logo-img">
+        </div>
+        <nav class="nav-responsive">
+            <a href="" class="nav-a-responsive">
+                <span class="material-symbols-outlined">
+                    shopping_cart
+                </span>
+                <div class="numero-compra-carrito">1</div>
+            </a>
+            <a href="/cuenta.html" class="nav-a-responsive">
+                <span class="material-symbols-outlined">
+                    person
+                </span>
+            </a>
+            <span class="material-symbols-outlined menu">
+                menu
+            </span>
+            <ul class="nav-ul-responsive">
+                <div class="caja-ul-input">
+                    <input type="text" class="ul-input" placeholder="Buscar...">
+                </div>
+                <a href="./index.html" class="ul-a-responsive">
+                    <li class="ul-li-responsive">INICIO</li>
+                </a>
+                <a href="./acerca.html" class="ul-a-responsive">
+                    <li class="ul-li-responsive">ACERCA DE</li>
+                </a>
+                <a href="./sillones.html" class="ul-a-responsive">
+                    <li class="ul-li-responsive">SILLONES</li>
+                </a>
+                <a href="./sillas.html" class="ul-a-responsive">
+                    <li class="ul-li-responsive">SILLAS</li>
+                </a>
+                <a href="./camas.html" class="ul-a-responsive">
+                    <li class="ul-li-responsive">CAMAS</li>
+                </a>
+                <a href="./mesas.html" class="ul-a-responsive">
+                    <li class="ul-li-responsive">MESAS</li>
+                </a>
+                <a href="./" class="ul-a-responsive">
+                    <li class="ul-li-responsive">CONTACTO</li>
+                </a>
+            </ul>
+        </nav>
+        <nav class="nav">
+            <ul class="nav-ul">
+                <a href="./index.html" class="ul-a">
+                    <li class="ul-li">INICIO</li>
+                </a>
+                <a href="./acerca.html" class="ul-a">
+                    <li class="ul-li">ACERCA DE</li>
+                </a>
+                <a href="./sillones.html" class="ul-a">
+                    <li class="ul-li">SILLONES</li>
+                </a>
+                <a href="./sillas.html" class="ul-a">
+                    <li class="ul-li">SILLAS</li>
+                </a>
+                <a href="./camas.html" class="ul-a">
+                    <li class="ul-li">CAMAS</li>
+                </a>
+                <a href="./mesas.html" class="ul-a">
+                    <li class="ul-li">MESAS</li>
+                </a>
+            </ul>
+            <a href="/cart.html" class="nav-a">
+                <span class="material-symbols-outlined">
+                    shopping_cart
+                </span>
+                <div class="numero-compra-carrito">1</div>
+            </a>
+            <a href="/cuenta.html" class="nav-a">
+                <span class="material-symbols-outlined">
+                    person
+                </span>
+            </a>
+        </nav>
+    </header>
+    <main>
+        <div class="contenedor-slider">
+            <div class="caja-slider">
+                <div class="slider">
+                    <img src="img/slider.jpg" alt="" class="slider-img">
+                </div>
+                <div class="slider">
+                    <img src="img/slider2.jpg" alt="" class="slider-img">
+                </div>
+                <div class="slider">
+                    <img src="img/slider3.jpg" alt="" class="slider-img">
+                </div>
+            </div>
+            <div class="caja-bt bt-izquierdo">
+                <span class="material-symbols-outlined bt-flecha izquierdo">
+                    arrow_back_ios
+                </span>
+            </div>
+            <div class="caja-bt bt-derecho">
+                <span class="material-symbols-outlined bt-flecha derecho">
+                    arrow_forward_ios
+                </span>
+            </div>
+        </div>
+        <div class="caja-productos">
+            <h1 class="productos-h1-icon">PRODUCTOS</h1>
+            <div class="productos-flex-icon">
+                <div class="producto-icon">
+                    <span class="material-symbols-outlined">
+                        chair
+                    </span>
+                    <p>sillon</p>
+                </div>
+                <div class="producto-icon">
+                    <span class="material-symbols-outlined">
+                        chair_alt
+                    </span>
+                    <p>silla</p>
+                </div>
+                <div class="producto-icon">
+                    <span class="material-symbols-outlined">
+                        bed
+                    </span>
+                    <p>cama</p>
+                </div>
+                <div class="producto-icon">
+                    <span class="material-symbols-outlined">
+                        table_bar
+                    </span>
+                    <p>mesa</p>
+                </div>
+                <div class="producto-icon">
+                    <span class="material-symbols-outlined">
+                        table_lamp
+                    </span>
+                    <p>lampara</p>
+                </div>
+            </div>
+        </div>
+        <div class="caja-productos-descatado">
+            <h2>PRODUCTOS DESTACADOS</h2>
+            <div class="caja-producto-destacado-flex">
+                <div class="caja-producto-destacado">
+                    <div class="producto-destacado">
+                        <a href="vista-producto.html?polera=1" class="producto-destacado-a">
+                            <img src="./img/producto.jpg" alt="" class="img-destacado">
+                        </a>
+                        <a href="#"><span class="detacado-nombre">silla de madera</span></a>
+                        <span class="destacado-precio">180bs</span>
+                    </div>
+                </div>
+                <div class="caja-producto-destacado">
+                    <div class="producto-destacado">
+                        <a href="vista-producto.html?polera=15" class="producto-destacado-a">
+                            <img src="./img/producto15.jpg" alt="" class="img-destacado">
+                        </a>
+                        <a href="#"><span class="detacado-nombre">silla de madera</span></a>
+                        <span class="destacado-precio">180bs</span>
+                    </div>
+                </div>
+                <div class="caja-producto-destacado">
+                    <div class="producto-destacado">
+                        <a href="vista-producto.html?polera=2" class="producto-destacado-a">
+                            <img src="./img/producto2.jpg" alt="" class="img-destacado">
+                        </a>
+                        <a href="#"><span class="detacado-nombre">silla de madera</span></a>
+                        <span class="destacado-precio">180bs</span>
+                    </div>
+                </div>
+                <div class="caja-producto-destacado">
+                    <div class="producto-destacado">
+                        <a href="vista-producto.html?polera=3" class="producto-destacado-a">
+                            <img src="./img/producto3.jpg" alt="" class="img-destacado">
+                        </a>
+                        <a href="#"><span class="detacado-nombre">silla de madera</span></a>
+                        <span class="destacado-precio">180bs</span>
+                    </div>
+                </div>
+                <div class="caja-producto-destacado">
+                    <div class="producto-destacado">
+                        <a href="vista-producto.html?polera=4" class="producto-destacado-a">
+                            <img src="./img/producto4.jpg" alt="" class="img-destacado">
+                        </a>
+                        <a href="#"><span class="detacado-nombre">silla de madera</span></a>
+                        <span class="destacado-precio">180bs</span>
+                    </div>
+                </div>
+                <div class="caja-producto-destacado">
+                    <div class="producto-destacado">
+                        <a href="vista-producto.html?polera=5" class="producto-destacado-a">
+                            <img src="./img/producto5.jpg" alt="" class="img-destacado">
+                        </a>
+                        <a href="#"><span class="detacado-nombre">silla de madera</span></a>
+                        <span class="destacado-precio">180bs</span>
+                    </div>
+                </div>
+                <div class="caja-producto-destacado">
+                    <div class="producto-destacado">
+                        <a href="vista-producto.html?polera=6" class="producto-destacado-a">
+                            <img src="./img/producto6.jpg" alt="" class="img-destacado">
+                        </a>
+                        <a href="#"><span class="detacado-nombre">silla de madera</span></a>
+                        <span class="destacado-precio">180bs</span>
+                    </div>
+                </div>
+                <div class="caja-producto-destacado">
+                    <div class="producto-destacado">
+                        <a href="vista-producto.html?polera=7" class="producto-destacado-a">
+                            <img src="./img/producto7.jpg" alt="" class="img-destacado">
+                        </a>
+                        <a href="#"><span class="detacado-nombre">silla de madera</span></a>
+                        <span class="destacado-precio">180bs</span>
+                    </div>
+                </div>
+                <div class="caja-producto-destacado">
+                    <div class="producto-destacado">
+                        <a href="vista-producto.html?polera=8" class="producto-destacado-a">
+                            <img src="./img/producto8.jpg" alt="" class="img-destacado">
+                        </a>
+                        <a href="#"><span class="detacado-nombre">silla de madera</span></a>
+                        <span class="destacado-precio">180bs</span>
+                    </div>
+                </div>
+                <div class="caja-producto-destacado">
+                    <div class="producto-destacado">
+                        <a href="vista-producto.html?polera=9" class="producto-destacado-a">
+                            <img src="./img/producto9.jpg" alt="" class="img-destacado">
+                        </a>
+                        <a href="#"><span class="detacado-nombre">silla de madera</span></a>
+                        <span class="destacado-precio">180bs</span>
+                    </div>
+                </div>
+                <div class="caja-producto-destacado">
+                    <div class="producto-destacado">
+                        <a href="vista-producto.html?polera=10" class="producto-destacado-a">
+                            <img src="./img/producto10.jpg" alt="" class="img-destacado">
+                        </a>
+                        <a href="#"><span class="detacado-nombre">silla de madera</span></a>
+                        <span class="destacado-precio">180bs</span>
+                    </div>
+                </div>
+                <div class="caja-producto-destacado">
+                    <div class="producto-destacado">
+                        <a href="vista-producto.html?polera=11" class="producto-destacado-a">
+                            <img src="./img/producto11.jpg" alt="" class="img-destacado">
+                        </a>
+                        <a href="#"><span class="detacado-nombre">silla de madera</span></a>
+                        <span class="destacado-precio">180bs</span>
+                    </div>
+                </div>
+                <div class="caja-producto-destacado">
+                    <div class="producto-destacado">
+                        <a href="vista-producto.html?polera=12" class="producto-destacado-a">
+                            <img src="./img/producto12.jpg" alt="" class="img-destacado">
+                        </a>
+                        <a href="#"><span class="detacado-nombre">silla de madera</span></a>
+                        <span class="destacado-precio">180bs</span>
+                    </div>
+                </div>
+                <div class="caja-producto-destacado">
+                    <div class="producto-destacado">
+                        <a href="vista-producto.html?polera=13" class="producto-destacado-a">
+                            <img src="./img/producto13.jpg" alt="" class="img-destacado">
+                        </a>
+                        <a href="#"><span class="detacado-nombre">silla de madera</span></a>
+                        <span class="destacado-precio">180bs</span>
+                    </div>
+                </div>
+                <div class="caja-producto-destacado">
+                    <div class="producto-destacado">
+                        <a href="vista-producto.html?polera=14" class="producto-destacado-a">
+                            <img src="./img/producto14.jpg" alt="" class="img-destacado">
+                        </a>
+                        <a href="#"><span class="detacado-nombre">silla de madera</span></a>
+                        <span class="destacado-precio">180bs</span>
+                    </div>
+                </div>
+                <div class="caja-producto-destacado">
+                    <div class="producto-destacado">
+                        <a href="vista-producto.html?polera=20" class="producto-destacado-a">
+                            <img src="./img/producto20.jpg" alt="" class="img-destacado">
+                        </a>
+                        <a href="#"><span class="detacado-nombre">silla de madera</span></a>
+                        <span class="destacado-precio">180bs</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-superior">
+            <nav class="footer-producto footer-texto">
+                <span class="footer-span">Productos</span>
+                <ul class="footer-ul">
+                    <a href="" class="footer-a">
+                        <li class="footer-li">Cama</li>
+                    </a>
+                    <a href="" class="footer-a">
+                        <li class="footer-li">Silla</li>
+                    </a>
+                    <a href="" class="footer-a">
+                        <li class="footer-li">Sillones</li>
+                    </a>
+                    <a href="" class="footer-a">
+                        <li class="footer-li">Escritorios</li>
+                    </a>
+                </ul>
+            </nav>
+            <nav class="foooter-acerca footer-texto">
+                <span class="footer-span">Nosotros</span>
+                <ul class="footer-ul">
+                    <a href="" class="footer-a">
+                        <li class="footer-li">Acerca de</li>
+                    </a>
+                    <a href="" class="footer-a">
+                        <li class="footer-li">MI cuenta</li>
+                    </a>
+                    <a href="" class="footer-a">
+                        <li class="footer-li">CONTACTO</li>
+                    </a>
+                </ul>
+            </nav>
+            <nav class="footer-politica footer-texto">
+                <span class="footer-span">Politica</span>
+                <ul class="footer-ul">
+                    <a href="" class="footer-a">
+                        <li class="footer-li">Politica de privacidad</li>
+                    </a>
+                    <a href="" class="footer-a">
+                        <li class="footer-li">Politica de envio</li>
+                    </a>
+                    <a href="" class="footer-a">
+                        <li class="footer-li">Politica de devolución</li>
+                    </a>
+                </ul>
+            </nav>
+            <nav class="footer-contacto footer-texto">
+                <span class="footer-span">Hablanos</span>
+                <ul class="footer-ul">
+                    <a href="" class="footer-a">
+                        <li class="footer-li">soyerwin@gmail.com</li>
+                    </a>
+                    <a href="" class="footer-a">
+                        <li class="footer-li">591 71285645</li>
+                    </a>
+                    <li class="footer-li">10:00 a 16:00, Lunes - Viernes</li>
+                </ul>
+            </nav>
+        </div>
+        <div class="footer-inferior">
+            <div class="footer-tarjeta">
+                <img src="img/master-cart.webp" alt="">
+                <img src="img/paypal.webp" alt="">
+                <img src="img/tarjeta.webp" alt="">
+                <img src="img/tarjeta2.webp" alt="">
+                <img src="img/visa.webp" alt="">
+            </div>
+            <div class="footer-desarrollado">Copyright ©2022 todos los derechos reservados | Desarrollado por <a
+                    href="https://soy-erwin.com" class="footer-desarrollador" target="_blank">España</a></div>
+        </div>
+    </footer>
+
+    <script src="./js/nav.js"></script>
+    <script src="./js/slider.js"></script>
+</body>
+
+</html>
